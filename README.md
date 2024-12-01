@@ -1,20 +1,38 @@
-# Driver-Drowsiness-Detection
+# Driver Drowsiness Detection  
 
-Wrote the Driver Drowsiness Detection program using Python, Tensorflow, OpenCV
+A real-time system to detect driver drowsiness using computer vision and deep learning. This project uses **TensorFlow**, **OpenCV**, and **Python** to classify drowsy and non-drowsy states and provide alerts during live video monitoring.  
 
-* First ipynb file (CUSTOM MODEL) contains the main model custom trained on a set of drowsy and non-drowsy photos
-* Second ipynb file (Using CUSTOM MODEL) contains the implementation of the custom trained model using OpenCV
+## Features  
+- Real-time video feed monitoring with OpenCV.  
+- Custom-trained deep learning model for drowsiness detection.  
+- Displays detection results in real-time.  
 
-During the implementation, OpenCV's VideoCpature is used to realtime detect the drowsiness and display it on the screen
+## Technologies Used  
+- **Python**  
+- **TensorFlow**  
+- **OpenCV**  
 
-# LOSS v/s ACCURACY
-![](https://github.com/Virendra69/Driver-Drowsiness-Detection/blob/main/download.png)
+## Setup and Installation  
+1. Clone the repository:  
+   ```bash  
+   git clone https://github.com/Virendra69/Driver-Drowsiness-Detection.git  
+2. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+3. Run the detection script:
+   ```bash
+   python detect_drowsiness.py
 
-# SAMPLE of Drowsy and Non-drowsy
-* Drowsy
+## How It Works
+1. Captures live video feed using OpenCV's VideoCapture.
+2. The custom-trained model classifies frames as drowsy or non-drowsy.
+3. Detection results are displayed on the video feed in real-time.
 
-![](https://github.com/Virendra69/Driver-Drowsiness-Detection/blob/main/J0234.png)
+## Project Structure
+* train_model.ipynb: Jupyter notebook for model training.
+* detect_drowsiness.py: Script for real-time detection.
+* requirements.txt: Dependency file for setup.
 
-* Non-drowsy
-
-![](https://github.com/Virendra69/Driver-Drowsiness-Detection/blob/main/j0147.png)
+## Future Enhancements
+* Integrate audio alerts for drowsiness detection.
+* Deploy as a mobile or web application.
