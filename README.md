@@ -17,11 +17,6 @@ A real-time system to detect driver drowsiness using computer vision and deep le
 2. The custom-trained model classifies frames as drowsy or non-drowsy.
 3. Detection results are displayed on the video feed in real-time.
 
-## Project Structure
-* train_model.ipynb: Jupyter notebook for model training.
-* detect_drowsiness.py: Script for real-time detection.
-* requirements.txt: Dependency file for setup.
-
 ## Future Enhancements
 * Integrate audio alerts for drowsiness detection.
 * Deploy as a mobile or web application.
