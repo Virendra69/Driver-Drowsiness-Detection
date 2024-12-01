@@ -10,18 +10,7 @@ A real-time system to detect driver drowsiness using computer vision and deep le
 ## Technologies Used  
 - **Python**  
 - **TensorFlow**  
-- **OpenCV**  
-
-## Setup and Installation  
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/Virendra69/Driver-Drowsiness-Detection.git  
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
-3. Run the detection script:
-   ```bash
-   python detect_drowsiness.py
+- **OpenCV**
 
 ## How It Works
 1. Captures live video feed using OpenCV's VideoCapture.
